@@ -1,0 +1,64 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Blank": [],
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ],
+        "Newsletter": [
+            "NEWSLETTER_HEADING_TEXT",
+            "NEWSLETTER_SUBHEADING_TEXT",
+            "NEWSLETTER_BUTTON_TEXT"
+        ],
+        "About": [
+            "ABOUT_MISSION_STATMENT",
+            "ABOUT_VISION_STATEMENT",
+            "ABOUT_VALUES_STATEMENT"
+        ],
+        "Contact": [
+            "CONTACT_HEADER_TEXT",
+            "CONTACT_SUBHEADER_TEXT"
+        ],
+        "FAQ": [
+            "FAQ_HEADER_TEXT",
+            "FAQ_SUBHEADER_TEXT",
+            "FAQ_QUESTION_01_TEXT",
+            "FAQ_ANSWER_01_TEXT",
+            "FAQ_QUESTION_02_TEXT",
+            "FAQ_ANSWER_02_TEXT",
+            "FAQ_QUESTION_03_TEXT",
+            "FAQ_ANSWER_03_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "PawTracks",
+        "HERO_HEADING_TEXT": "Walk This Way: Your Dog's New Best Friend",
+        "HERO_SUBHEADING_TEXT": "Connect with trusted dog walkers in your neighborhood for tail-wagging adventures",
+        "FOOTER_TEXT": "\u00a9 2023 PawTracks. All rights reserved. Keeping tails wagging and paws moving.",
+        "NEWSLETTER_HEADING_TEXT": "Stay in the Loop",
+        "NEWSLETTER_SUBHEADING_TEXT": "Fetch the latest news, tips, and special offers for your furry friend",
+        "NEWSLETTER_BUTTON_TEXT": "Subscribe",
+        "ABOUT_MISSION_STATMENT": "To provide safe, reliable, and joyful dog walking experiences that enrich the lives of both pets and their owners",
+        "ABOUT_VISION_STATEMENT": "Creating a world where every dog has access to exercise, socialization, and care, even when their owners are busy",
+        "ABOUT_VALUES_STATEMENT": "We value the safety and happiness of pets, the trust of owners, and the dedication of our walkers",
+        "CONTACT_HEADER_TEXT": "Bark Up Our Tree",
+        "CONTACT_SUBHEADER_TEXT": "Have a question or feedback? We're all ears!",
+        "FAQ_QUESTION_01_TEXT": "How do I book a dog walker?",
+        "FAQ_ANSWER_01_TEXT": "Simply create an account, enter your dog's details, and choose from available walkers in your area. You can book one-time walks or set up recurring schedules.",
+        "FAQ_QUESTION_02_TEXT": "Are your dog walkers vetted and insured?",
+        "FAQ_ANSWER_02_TEXT": "Absolutely! All our dog walkers undergo thorough background checks, training, and are fully insured for your peace of mind.",
+        "FAQ_QUESTION_03_TEXT": "How will I know my dog is safe during the walk?",
+        "FAQ_ANSWER_03_TEXT": "Our app features real-time GPS tracking, photo updates, and detailed post-walk reports, so you're always in the know about your furry friend's adventure.",
+        "FAQ_HEADER_TEXT": "Frequently Asked Questions",
+        "FAQ_SUBHEADER_TEXT": "Got questions? We've got answers! Check out our most common queries below."
+    }
+}
