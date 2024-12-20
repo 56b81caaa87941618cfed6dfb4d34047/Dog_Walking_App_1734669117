@@ -6,5 +6,15 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "00658d27-67b7-4e89-92f3-0c15857c8549",
+        "timestamp": "2024-12-20T06:33:58.021535Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "replace with a 2d game where a player on a bike rides on a line randomly roller coastering",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
     }
 ]
