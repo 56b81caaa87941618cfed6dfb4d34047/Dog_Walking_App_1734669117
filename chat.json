@@ -297,5 +297,15 @@
         "source": "base_assistant",
         "content": "The image in the Hero component has been adjusted to be full width of the container. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "2c8b5df2-7e30-453a-8aff-7f0650874876",
+        "timestamp": "2024-12-20T06:48:28.472482Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "double the width of the image and place the hero div over the top of it",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
     }
 ]
