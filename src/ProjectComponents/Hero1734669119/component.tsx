@@ -120,10 +120,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
     </div>
   );
+};
 };
 
 export { Hero as component }
