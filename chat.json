@@ -537,5 +537,15 @@
         "source": "base_assistant",
         "content": "To ensure proper placements, please select the appropriate \"Our Services\" section in your interface, and I will assist you with adding the detailed multi-step form.",
         "metadata": {}
+    },
+    {
+        "id": "cdfd2148-8c6d-4741-bbad-54fed81a5a6b",
+        "timestamp": "2024-12-20T07:18:50.774792Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "just proceed",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
     }
 ]
