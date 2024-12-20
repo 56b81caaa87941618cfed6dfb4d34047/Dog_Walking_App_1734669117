@@ -48,6 +48,64 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
+        
+        <div className="relative z-10 mt-16 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-[40px] p-8 shadow-lg">
+          <h2 className="text-3xl font-bold mb-6 text-gray-100">Dog Information Form</h2>
+          <div className="grid grid-cols-3 gap-8">
+            <div className="flex flex-col">
+              <h3 className="text-xl font-semibold mb-4 text-gray-200">Basic Information</h3>
+              <div className="mb-4">
+                <label htmlFor="dogName" className="block text-sm font-medium text-gray-300 mb-1">Dog's Name</label>
+                <input type="text" id="dogName" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogBreed" className="block text-sm font-medium text-gray-300 mb-1">Breed</label>
+                <input type="text" id="dogBreed" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogAge" className="block text-sm font-medium text-gray-300 mb-1">Age</label>
+                <input type="number" id="dogAge" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" />
+              </div>
+            </div>
+            
+            <div className="flex flex-col">
+              <h3 className="text-xl font-semibold mb-4 text-gray-200">Health Information</h3>
+              <div className="mb-4">
+                <label htmlFor="dogWeight" className="block text-sm font-medium text-gray-300 mb-1">Weight (lbs)</label>
+                <input type="number" id="dogWeight" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogVaccinations" className="block text-sm font-medium text-gray-300 mb-1">Vaccinations</label>
+                <textarea id="dogVaccinations" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" rows={3}></textarea>
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogMedications" className="block text-sm font-medium text-gray-300 mb-1">Medications</label>
+                <textarea id="dogMedications" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" rows={3}></textarea>
+              </div>
+            </div>
+            
+            <div className="flex flex-col">
+              <h3 className="text-xl font-semibold mb-4 text-gray-200">Special Requirements</h3>
+              <div className="mb-4">
+                <label htmlFor="dogDiet" className="block text-sm font-medium text-gray-300 mb-1">Dietary Restrictions</label>
+                <textarea id="dogDiet" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" rows={3}></textarea>
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogExercise" className="block text-sm font-medium text-gray-300 mb-1">Exercise Needs</label>
+                <textarea id="dogExercise" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" rows={3}></textarea>
+              </div>
+              <div className="mb-4">
+                <label htmlFor="dogBehavior" className="block text-sm font-medium text-gray-300 mb-1">Behavioral Notes</label>
+                <textarea id="dogBehavior" className="w-full bg-white bg-opacity-10 rounded-lg p-2 text-white" rows={3}></textarea>
+              </div>
+            </div>
+          </div>
+          <div className="mt-6 flex justify-end">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">
+              Submit Dog Information
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
