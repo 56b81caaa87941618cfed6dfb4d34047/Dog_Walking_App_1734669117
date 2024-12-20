@@ -297,5 +297,56 @@
         "source": "base_assistant",
         "content": "The image in the Hero component has been adjusted to be full width of the container. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "2c8b5df2-7e30-453a-8aff-7f0650874876",
+        "timestamp": "2024-12-20T06:48:28.472482Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "double the width of the image and place the hero div over the top of it",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
+    },
+    {
+        "id": "bddf32c9-fc46-428e-855c-e13fe3a4300f",
+        "timestamp": "2024-12-20T06:48:31.147003Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_dZySL3F1r175c0QVc1rpM8Xs",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734669119\", \"change_description\": \"Double the width of the image and place the Hero div over the top of it.\", \"acknowledgement_message\": \"Okay, I'm doubling the width of the image and placing the Hero div over the top...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "0f8b4c9d-2900-499d-a287-3bfb50cd4ec6",
+        "timestamp": "2024-12-20T06:48:31.171384Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm doubling the width of the image and placing the Hero div over the top...",
+        "metadata": {}
+    },
+    {
+        "id": "7d4b59b2-bc29-47aa-bcab-7138b8799e38",
+        "timestamp": "2024-12-20T06:48:42.736254Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_dZySL3F1r175c0QVc1rpM8Xs"
+        }
+    },
+    {
+        "id": "72b4e333-8bc1-4ccd-bb36-30659a485427",
+        "timestamp": "2024-12-20T06:48:43.823697Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image in the Hero component has been doubled in width and placed the Hero div over the top of it. What would you like to do next?",
+        "metadata": {}
     }
 ]
