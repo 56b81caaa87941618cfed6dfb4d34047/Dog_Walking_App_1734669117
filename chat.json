@@ -468,5 +468,15 @@
         "source": "base_assistant",
         "content": "I've added a glassmorphic table to the Hero component, with a list of dog services, prices, and both a 'Begin Order' and 'Learn More' button. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "ed9df89f-53e7-461f-a7ac-7704fd9254ed",
+        "timestamp": "2024-12-20T07:15:11.347443Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add a large div beneath the two heros but within that container. make it a full detailed multi staep form about how to input all your dogs info. seperate the form into 3 sections left to right",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
     }
 ]
