@@ -417,5 +417,15 @@
         "source": "base_assistant",
         "content": "Replacing a component completely and changing its purpose is beyond my current capabilities within the MakeInfinite studio. You might need to manually design or replace content for a new Hero section through the code editor.\n\nHowever, I can help with designing parts of it such as updating text, images, or styling. How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "58d5d736-1767-43a9-b135-2d2710fade60",
+        "timestamp": "2024-12-20T06:52:29.726321Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "to the right of the hero, add a glassopmorphic tbale with a list of dog services and prices and a begin order button and a learn more button. make them beautiful",
+        "metadata": {
+            "component_id": "Hero1734669119"
+        }
     }
 ]
