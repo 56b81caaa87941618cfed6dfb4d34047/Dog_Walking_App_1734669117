@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white p-8 w-full h-full"> {/* Full width and height */}
-      <div className="container mx-auto h-full">
+    <footer className="bg-gray-800 text-white p-8 w-full h-full rounded-lg shadow-lg relative overflow-hidden"> {/* Full width and height, rounded corners, shadow */}
+      <div className="container mx-auto h-full relative z-10">
         <div className="flex flex-wrap justify-between h-full">
           
           {/* FOOTER COPY */}
@@ -23,6 +23,8 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-700 to-transparent opacity-50"></div>
+      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-white to-transparent opacity-10"></div>
     </footer>
   );
 };
